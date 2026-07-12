@@ -1,7 +1,7 @@
 import Banner from './Banner'
 import Cart from './Cart'
 import ShoppingList from './ShoppingList'
-import QuestionForm from './QuestionForm'
+//import QuestionForm from './QuestionForm'
 import Footer from './Footer'
 
 function App() {
@@ -12,7 +12,6 @@ function App() {
 
             <form onSubmit={handleSubmit}>
                 <input type='text' name='my_input' defaultValue='Tapez votre texte' />
-                
                 <button type='submit'>Entrer</button>
             </form>
 
